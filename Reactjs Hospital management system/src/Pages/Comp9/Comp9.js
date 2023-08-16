@@ -37,7 +37,7 @@ import "./Comp9.css";
   
     const createTrust = () => {
 
-      alert("body sss")
+     // alert("body sss")
       
       const clinicianId = newClinicianId.trim();
       const licenseNumber = newLicenseNumber.trim();
