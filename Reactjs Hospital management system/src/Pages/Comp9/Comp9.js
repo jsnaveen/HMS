@@ -62,7 +62,7 @@ import "./Comp9.css";
          },
         });
 
-        alert(body)
+       // alert(body)
         console.log(body)
     
         fetch('http://localhost:8080/grails-cors/clinicianProfile/createApi/', {
