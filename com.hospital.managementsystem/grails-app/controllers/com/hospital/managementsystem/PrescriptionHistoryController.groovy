@@ -37,8 +37,6 @@ def prescriptionHistoryInstance = PrescriptionHistory.get(id)
       }
 
    prescriptionHistoryInstance.status = 0
-//    prescriptionHistoryInstance.code = prescriptionHistoryInstance.code + "_0"
-
    if (prescriptionHistoryInstance.save(flush: true)) {
        render status: CREATED, text: 'PrescriptionHistory Deleted successfully'
     } else {
