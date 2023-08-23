@@ -3,6 +3,7 @@ package com.hospital.managementsystem
 class PatientPrescription {
 
     String medication
+    String prescriptionNo
     Date prescriptionDate
     String therapistName
     String therapistInstructions
@@ -15,6 +16,7 @@ class PatientPrescription {
 
     static constraints = {
         therapistInstructions nullable : true
+        prescriptionNo unique : true
         therapyMode inList: ['DigitalTherapy' , 'HospitalTherapy']
     }
 }
