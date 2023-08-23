@@ -9,7 +9,7 @@ class Hospital {
 	Date lastUpdated
     Integer status 
 
-    static belongsTo = [organizations: Organization]
+   static belongsTo = [trust: Trust]
 
     static hasMany = [admissionLogs: AdmissionLog]
     
