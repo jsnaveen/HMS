@@ -2,7 +2,6 @@ package com.hospital.managementsystem
 
 class PrescriptionHistory {
 
-   
     String medication
     String prescriptionNo
     Date prescriptionDate
@@ -15,7 +14,4 @@ class PrescriptionHistory {
 
     static belongsTo = [patientPrescription: PatientPrescription]
 
-    static constraints = {
-
-    }
 }
